@@ -8,7 +8,7 @@ export const Map = ({latitude, longitude, name}) => {
     lng: longitude,
   };
 
-  const params = {v: '3.exp', key: 'AIzaSyAOipydFQP6OJt8-mdMbtjpO_IaC7kE-4U'};
+  const params = {v: '3.exp', key: 'API KEY'};
 
   const onMapCreated = (map) => {
     map.setOptions({
